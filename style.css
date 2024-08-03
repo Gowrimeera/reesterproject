@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    font-family:"oswald",sans-serif;
+}
+.container{
+    padding: 20px;
+    text-align: center;
+    background-color:cornflowerblue;
+    border-radius: 30px;
+}
+.section-one{
+    background-color:crimson;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+}   
+.section-two__image,.section-three__image,.section-four__image,.section-five__image{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+
+}
+.section-two{
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border: solid black 1px;
+    background-color: darksalmon;
+    border-radius: 30px;
+
+}
+.section-three{
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border: solid black 1px;
+    background-color:lightcoral;
+    border-radius: 30px;
+}
+.section-four{
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border: solid black 1px;
+    background-color: darksalmon;
+    border-radius: 30px;
+}
+.section-five{
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border: solid black 1px;
+    background-color:lightcoral;
+    border-radius: 30px;
+}
+.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+.contact-form{
+    background-color: crimson;
+    text-align: center;
+    vertical-align: center;
+    margin:2px;
+    padding: 10px;
+    border-radius:30px;
+}
+.contact-form__input{
+    text-align: center;
+    margin-top: 2px;
+    vertical-align: center;
+    padding-left: 10px;
+    font-size: large;
+    background-color:none ;
+}
+.contact-form__label{
+    text-align: center;
+    vertical-align: center;
+    margin-top: 2px;
+    padding: 20px;
+    font-size:large;
+}
+.contact-form__button{
+    background-color:lightgreen ;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
